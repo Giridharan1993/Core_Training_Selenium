@@ -14,9 +14,13 @@ public class BasicPrinting {
 		BasicPrinting model = new BasicPrinting();
 		model.Car();
 		//Created classes MultipleClassCall.java
-		MultipleClassCall food = new MultipleClassCall();
-		food.Beavarages();
-		food.Transport();
+		/*
+		 * MultipleClassCall food = new MultipleClassCall(); food.Beavarages();
+		 * food.Transport();
+		 */
+		//using Access Specifiers or Access Modifiers with an object
+		AllDataTypes mobile = new AllDataTypes();
+		System.out.println(mobile.mobileModelNumber);
 		
 		
 		
